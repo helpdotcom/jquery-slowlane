@@ -1,0 +1,56 @@
+._slowlane-loader {
+    position: relative;
+    overflow-y: hidden;
+}
+
+._slowlane-ad {
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f00;
+    color: #fff;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#_slowlane-floater {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #f00;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em;
+    text-align: center;
+    z-index: 200;
+    line-height: 0.9em;
+}
+
+#_slowlane-floater-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    text-align: left;
+}
+
+#_slowlane-floater-social {
+    float: right;
+    font-size: 2.5em;
+    text-align: right;
+}
+
+#_slowlane-floater-x {
+    
+}
+
+#_slowlane-floater a {
+    color: #fff;
+    text-decoration: underline;
+}
