@@ -3,7 +3,7 @@ jQuery-slowlane by Help.com
 
 ![Help.com Logo](http://help.com/skin/images/nav-logo-dark.svg)
 
-On Wednesday, September 10th, several high-profile sites such as [Kickstarter](http://kickstarter.com), [Etsy](http://etsy.com), [Reddit](http://reddit.com), [Mozilla](http://mozilla.com), and [Meetup](http://meetup.com) are participating in a ["slow-lane" protest](http://www.cnet.com/au/news/top-websites-join-internet-slowdown-day-in-symbolic-protest-of-fast-lanes/) in a show of solidarity to preserve Net Neutrality.
+On Wednesday, September 10th, several high-profile sites such as [Kickstarter](http://kickstarter.com), [Etsy](http://etsy.com), [Reddit](http://reddit.com), [Mozilla](http://mozilla.com), and [Meetup](http://meetup.com) are participating in a ["slow-lane" protest](https://www.battleforthenet.com/sept10th) in a show of solidarity to preserve Net Neutrality.
 
 All of the slow downs will be artificially produced on the front-end. We decided to help out the community by creating a jQuery plugin to create this fake slow-lane effect for you. If you believe in preserving Net Neutrality, feel free to use this plugin to join the cause and spread awareness.
 
@@ -68,4 +68,4 @@ jQuery-slowlane was written quickly to provide an easy way for web masters to he
 We suggest you throw in the plugin as-is and see if it works well enough for you. If not, [download the raw copy of jquery-slowlane.js](https://raw.githubusercontent.com/helpdotcom/jquery-slowlane/master/src/jquery-slowlane.js) and tweak it to suit your needs.
 
 ## Thanks
-Thank you to the [jQuery](http://jquery.com), [RawGit](http://rawgit.com), [Bootstrap](http://getbootstrap.com), [FontAwesome](http://fontawesome.io), and [Don't Break the Net](http://dontbreakthe.net) teams.
+Thank you to the [jQuery](http://jquery.com), [RawGit](http://rawgit.com), [Bootstrap](http://getbootstrap.com), [FontAwesome](http://fontawesome.io), and [Battle For the Net](https://www.battleforthenet.com/) teams.

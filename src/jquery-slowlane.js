@@ -43,7 +43,7 @@
                         +           social
                         +       '</div>'
                         +       '<p><b>This is what the Internet could become if Net Neutrality is compromised.</b></p>'
-                        +       '<p><a href="http://dontbreakthe.net/" target="_blank">Express your opinion</a>, <a href="http://act2.freepress.net/letter/two_million/" target="_blank">e-mail Congress and the FCC</a>, and <a href="http://www.house.gov/representatives/find/" target="_blank">write to your local congressional representative</a>.</p>'
+                        +       '<p><a href="https://www.battleforthenet.com/" target="_blank">Express your opinion</a>, <a href="http://act2.freepress.net/letter/two_million/" target="_blank">e-mail Congress and the FCC</a>, and <a href="http://www.house.gov/representatives/find/" target="_blank">write to your local congressional representative</a>.</p>'
                         +   '</div>'
                         + '</div>').hide();
 
