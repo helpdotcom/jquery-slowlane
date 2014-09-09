@@ -31,7 +31,7 @@ The easiest method is to use the [RawGit CDN](http://www.rawgit.com) and install
     <body>
         <!-- Make sure to load jQuery first. -->
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="https://cdn.rawgit.com/helpdotcom/jquery-slowlane/4e9b04dc8a9a1e5dae0371a56d99b10f8a680ddb/jquery-slowlane.min.js"></script>
+        <script src="https://cdn.rawgit.com/helpdotcom/jquery-slowlane/498a5eaf9a13db73785ca02101ac051829b6d94e/jquery-slowlane.min.js"></script>
     </body>
 </html>
 ```
