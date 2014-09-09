@@ -1,3 +1,5 @@
 (function($) {
-    $('#slow-section, img').slowlane();
+    $('#slow-section, img').slowlane({
+        fontAwesome: true
+    });
 })($);
