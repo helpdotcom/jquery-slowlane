@@ -27,14 +27,14 @@
         // Inject Info Floater
         if (!options.customFloater) {
             var close = options.fontAwesome ? '<i id="_slowlane-floater-x" class="fa fa-close"></i>' : '<a id="_slowlane-floater-x" class="_slowlane-text">Close</a>';
-            var social = options.fontAwesome ? '<a href="https://twitter.com/intent/tweet?via=tweetsfromhelp&text=Keep+the+internet+free+and+open+%40FCC+and+%40TomWheelerFCC&hashtags=netneutrality&url=http://dontbreakthe.net/" class="fa fa-twitter-square" target="_blank"></a>'
-                                                + '<a href="https://www.facebook.com/sharer/sharer.php?u=http://dontbreakthe.net/" class="fa fa-facebook-square" target="_blank"></a>'
-                                                + '<a href="https://plus.google.com/share?url=http://dontbreakthe.net/" class="fa fa-google-plus-square" target="_blank"></a>'
-                                                + '<a href="https://www.linkedin.com/shareArticle?mini=true&url=http://dontbreakthe.net/&title=Don\'t%20Break%20the%20Internet&summary=Keep%20the%20internet%20free%20and%20open.%20Do%20your%20part%20to%20preserve%20Net%20Neutrality.&source=" class="fa fa-linkedin-square" target="_blank"></a>'
-                                             : '<a href="https://twitter.com/intent/tweet?via=tweetsfromhelp&text=Keep+the+internet+free+and+open+%40FCC+and+%40TomWheelerFCC&hashtags=netneutrality&url=http://dontbreakthe.net/" class="_slowlane-text" target="_blank">Twitter</a>'
-                                                + '<a href="https://www.facebook.com/sharer/sharer.php?u=http://dontbreakthe.net/" class="_slowlane-text" target="_blank">Facebook</a>'
-                                                + '<a href="https://plus.google.com/share?url=http://dontbreakthe.net/" class="_slowlane-text" target="_blank">Google+</a>'
-                                                + '<a href="https://www.linkedin.com/shareArticle?mini=true&url=http://dontbreakthe.net/&title=Don\'t%20Break%20the%20Internet&summary=Keep%20the%20internet%20free%20and%20open.%20Do%20your%20part%20to%20preserve%20Net%20Neutrality.&source=" class="_slowlane-text" target="_blank">LinkedIn</a>';
+            var social = options.fontAwesome ? '<a href="https://twitter.com/intent/tweet?via=tweetsfromhelp&text=Keep+the+internet+free+and+open+%40FCC+and+%40TomWheelerFCC&hashtags=netneutrality&url=http://battleforthenet.com/" class="fa fa-twitter-square" target="_blank"></a>'
+                                                + '<a href="https://www.facebook.com/sharer/sharer.php?u=http://battleforthenet.com" class="fa fa-facebook-square" target="_blank"></a>'
+                                                + '<a href="https://plus.google.com/share?url=http://battleforthenet.com" class="fa fa-google-plus-square" target="_blank"></a>'
+                                                + '<a href="https://www.linkedin.com/shareArticle?mini=true&url=http://battleforthenet.com/&title=Don\'t%20Break%20the%20Internet&summary=Keep%20the%20internet%20free%20and%20open.%20Do%20your%20part%20to%20preserve%20Net%20Neutrality.&source=" class="fa fa-linkedin-square" target="_blank"></a>'
+                                             : '<a href="https://twitter.com/intent/tweet?via=tweetsfromhelp&text=Keep+the+internet+free+and+open+%40FCC+and+%40TomWheelerFCC&hashtags=netneutrality&url=http://battleforthenet.com" class="_slowlane-text" target="_blank">Twitter</a>'
+                                                + '<a href="https://www.facebook.com/sharer/sharer.php?u=http://battleforthenet.com/" class="_slowlane-text" target="_blank">Facebook</a>'
+                                                + '<a href="https://plus.google.com/share?url=http://battleforthenet.com/" class="_slowlane-text" target="_blank">Google+</a>'
+                                                + '<a href="https://www.linkedin.com/shareArticle?mini=true&url=http://battleforthenet.com/&title=Don\'t%20Break%20the%20Internet&summary=Keep%20the%20internet%20free%20and%20open.%20Do%20your%20part%20to%20preserve%20Net%20Neutrality.&source=" class="_slowlane-text" target="_blank">LinkedIn</a>';
                                              
             var floater = $('<div id="_slowlane-floater">'
                         +   close
