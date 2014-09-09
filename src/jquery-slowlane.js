@@ -5,6 +5,7 @@
         options.customFloater = typeof options.customFloater === 'boolean' ? options.customFloater : false;
         options.loadTime = typeof options.loadTime === 'number' ? options.loadTime : 5000;
         options.adFadeTime = typeof options.adFadeTime === 'number' ? options.adFadeTime : 500;
+        options.zIndex = typeof options.zIndex === 'number' ? options.zIndex : 200;
 
         function killLoaders() {
             $('._slowlane-ad').each(function(index, element) {
@@ -45,6 +46,8 @@
                         +       '<p><a href="http://dontbreakthe.net/" target="_blank">Express your opinion</a>, <a href="http://act2.freepress.net/letter/two_million/" target="_blank">e-mail Congress and the FCC</a>, and <a href="http://www.house.gov/representatives/find/" target="_blank">write to your local congressional representative</a>.</p>'
                         +   '</div>'
                         + '</div>').hide();
+
+            floater.css({ zIndex: options.zIndex });
 
             $('body').append(floater.delay(1000).fadeIn(1000));
 
@@ -111,7 +114,9 @@
 
                     // Create a button to get into the fast-lane.
                     var icons = options.fontAwesome ? '<i class="fa fa-spinner fa-spin"></i><i class="fa fa-rocket"></i>' : '';
-                    var ad = $('<div class="_slowlane-ad">' + icons + ' &nbsp; Buy Fast-Lane Access</div>');
+                    var ad = $('<div class="_slowlane-ad">' + icons + ' &nbsp; Buy Fast-Lane Access</div>').css({
+                        zIndex: options.zIndex - 1
+                    });
                     ad.click(killLoaders);
                     wrapper.append(ad);
 

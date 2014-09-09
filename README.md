@@ -50,7 +50,8 @@ $('section').slowlane({
     fontAwesome: false, // Use FontAwesome icons.
     customFloater: false, // Use your own floater. See below for styling details.
     loadTime: 5000, // The duration that an item takes to "load".
-    adFadeTime: 500 // The duration that a fast-lane ad takes to fade out.
+    adFadeTime: 500, // The duration that a fast-lane ad takes to fade out.
+    zIndex: 200 // The z-index for the floater. Ads will be this z-index minus one.
 });
 ```
 
