@@ -26,15 +26,17 @@ The easiest method is to use the [RawGit CDN](http://www.rawgit.com) and install
         <!-- Your Head Code -->
         <!-- FontAwesome is optional but suggested. -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="https://cdn.rawgit.com/helpdotcom/jquery-slowlane/master/jquery-slowlane.min.css" />
+        <link rel="stylesheet" href="https://cdn.rawgit.com/helpdotcom/jquery-slowlane/f2e1654812271cf019610cdd98ac3b9bae2722fb/src/jquery-slowlane.css" />
     </head>
     <body>
         <!-- Make sure to load jQuery first. -->
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="https://cdn.rawgit.com/helpdotcom/jquery-slowlane/master/jquery-slowlane.min.js"></script>
+        <script src="https://cdn.rawgit.com/helpdotcom/jquery-slowlane/ff287aa7d1c9ad8ce4b5efc2aadb3d74d866bd3e/jquery-slowlane.min.js"></script>
     </body>
 </html>
 ```
+
+RawGit has a permanent cache, so the CDN references a specific commit.
 
 ## Usage
 Putting your site into the slow-lane is very simple:
@@ -57,13 +59,13 @@ $('section').slowlane({
 
 ## Styling
 
-All classes and IDs used by jQuery-slowlane are prefixed by `_slowlane`. If you want to change the look of any of the plugin parts, simply [download the raw copy of jquery-slowlane.css](https://cdn.rawgit.com/helpdotcom/jquery-slowlane/master/src/jquery-slowlane.css) and tinker around with the styles.
+All classes and IDs used by jQuery-slowlane are prefixed by `_slowlane`. If you want to change the look of any of the plugin parts, simply [download the raw copy of jquery-slowlane.css](https://raw.githubusercontent.com/helpdotcom/jquery-slowlane/master/src/jquery-slowlane.css) and tinker around with the styles.
 
 ## Tweaking for Production
 
 jQuery-slowlane was written quickly to provide an easy way for web masters to help spread awareness. Due to time constraints, the plugin has had minimal testing and may not work as expected, especially on mobile. That being said, the plugin tries to preserve any styling that has been implemented on the target elements.
 
-We suggest you throw in the plugin as-is and see if it works well enough for you. If not, [download the raw copy of jquery-slowlane.js](https://cdn.rawgit.com/helpdotcom/jquery-slowlane/master/src/jquery-slowlane.js) and tweak it to suit your needs.
+We suggest you throw in the plugin as-is and see if it works well enough for you. If not, [download the raw copy of jquery-slowlane.js](https://raw.githubusercontent.com/helpdotcom/jquery-slowlane/master/src/jquery-slowlane.js) and tweak it to suit your needs.
 
 ## Thanks
 Thank you to the [jQuery](http://jquery.com), [RawGit](http://rawgit.com), [Bootstrap](http://getbootstrap.com), [FontAwesome](http://fontawesome.io), and [Don't Break the Net](http://dontbreakthe.net) teams.
