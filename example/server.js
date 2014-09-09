@@ -8,11 +8,11 @@ http.createServer(function(request, response) {
         case '/':
             file = __dirname + '/example.html';
         break;
-        case '/jquery-slowlane.js':
-            file = path.dirname(__dirname) + '/jquery-slowlane.js';
+        case '/jquery-slowlane.min.js':
+            file = path.dirname(__dirname) + '/jquery-slowlane.min.js';
         break;
-        case '/jquery-slowlane.css':
-            file = path.dirname(__dirname) + '/jquery-slowlane.css';
+        case '/jquery-slowlane.min.css':
+            file = path.dirname(__dirname) + '/jquery-slowlane.min.css';
         break;
     }
 
